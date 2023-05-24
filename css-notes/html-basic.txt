@@ -1,0 +1,34 @@
+<p>...</p> //paragraph
+<button>..</button> //button
+
+<a href="" ></a> //anchor (a link to another website)
+<a href="" target="_blank"></a> //opens the link in a new tab
+
+examples
+
+<button>
+  Hello world!!
+</button>
+<p>
+  paragraph of text
+</p>
+
+<a href="https://www.youtube.com/" target="_blank">
+  Linked to Youtube
+</a>
+
+<button>
+	Click
+</button>
+
+<button>
+	Jonathan
+</button>
+<button>
+	Pizza
+</button>
+
+<p>Hello, World!</p>
+<p>
+	Today, I went to buy a sandwich.
+</p>

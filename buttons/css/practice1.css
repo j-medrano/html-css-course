@@ -1,0 +1,24 @@
+.amazon-link {
+  color: rgb(0, 118, 133);
+}
+
+.nike {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+
+.buy-button {
+  color: black;
+  background-color: rgb(255, 164, 28);
+  height: 36px;
+  width: 140px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+}
