@@ -1,6 +1,9 @@
 .amazon-link {
   color: rgb(0, 118, 133);
 }
+.amazon-link:hover {
+  color: rgb(199, 81, 31);
+}
 
 .nike {
   font-size: 24px;
@@ -21,4 +24,11 @@
   border-radius: 18px;
   border: none;
   cursor: pointer;
+  transition: opacity .15s;
+}
+.buy-button:hover {
+  background-color: rgb(250, 137, 0);
+}
+.buy-button:active {
+  opacity: .7;
 }

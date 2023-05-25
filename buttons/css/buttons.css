@@ -11,6 +11,13 @@
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
+  transition: opacity .15s;
+  }
+  .subscribe-button:hover {
+    opacity: .8;
+  }
+  .subscribe-button:active {
+    opacity: .5;
   }
 
 .join-button {
@@ -24,6 +31,16 @@
   cursor: pointer;
   margin-right: 8px;
   border-style: solid;
+  transition: background-color .15s, color .15s;
+  
+}
+.join-button:hover {
+  color: white;
+  background-color: rgb(6, 95, 212);
+  
+}
+.join-button:active{ 
+  opacity: 0.7;
 }
 
 .tweet-button {
@@ -38,6 +55,10 @@
   font-weight: bold;
   font-size: 15px;
   margin-right: 8px;
+  transition: box-shadow .15s;
+}
+.tweet-button:hover {
+  box-shadow: 0px 4px 8px rgba(0,0,0, .2);
 }
 
 .uber-button{
@@ -48,6 +69,10 @@
   width: 110px;
   cursor: pointer;
   margin-right: 8px;
+  transition: opacity .15s;
+}
+.uber-button:hover {
+  opacity: .8;
 }
 
 .amazon-button{
@@ -59,6 +84,13 @@
   border-radius: 18px;
   cursor: pointer;
   margin-right: 8px;
+  transition: background-color .15s, opacity .15s;
+}
+.amazon-button:hover {
+  background-color: rgb(247, 202, 0);
+}
+.amazon-button:active {
+  opacity: .5;
 }
 
 .github-button{
@@ -71,6 +103,10 @@
   height: 36px;
   width: 95px;
   cursor: pointer;
+  transition: box-shadow .15s;
+}
+.github-button:hover {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, .15);
 }
 
 .row-two{
@@ -88,6 +124,9 @@
   font-size: 12px;
   margin-right: 8px;
 }
+.bootstrap-button1:hover {
+  background-color: rgb(80, 30, 125);
+}
 
 .bootstrap-button2 {
   color: rgb(108, 117, 125);
@@ -100,6 +139,12 @@
   border-radius: 5px;
   border-width: 1px;
   cursor: pointer;
+  transition: color .15s, background-color .15s;
+
+}
+.bootstrap-button2:hover {
+  color: white;
+  background-color: rgb(108, 117, 125);
 }
 
 
@@ -113,6 +158,10 @@
   width: 220px;
   cursor: pointer;
   margin-right: 8px;
+  transition: background-color .15s;
+}
+.linked-button1:hover {
+  background-color: rgb(2, 70, 138);
 }
 
 .linked-button2 {
@@ -126,4 +175,8 @@
   border-color: rgb(10, 102, 194);
   border-radius: 18px;
   cursor: pointer;
+}
+.linked-button2:hover {
+  border-width: 2px;
+  background-color: rgb(226, 240, 254);
 }
