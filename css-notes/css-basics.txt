@@ -3,3 +3,7 @@ Cascasding Style Sheets
 supersimple.dev/exercises/buttons //website to practice with Cascasding
 
 box-shadow: 0px(horizontal) 4px(vertical) 8px(blur) rgba(0,0,0, .2 (0-1))//opacity of color;
+
+
+padding gives spaces inside the border //this is best use for height and width
+margin gives spaces outside the border
