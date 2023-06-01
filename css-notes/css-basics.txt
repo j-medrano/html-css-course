@@ -7,3 +7,9 @@ box-shadow: 0px(horizontal) 4px(vertical) 8px(blur) rgba(0,0,0, .2 (0-1))//opaci
 
 padding gives spaces inside the border //this is best use for height and width
 margin gives spaces outside the border
+
+
+<strong></strong> helps get a specific css element
+
+<u></u>  underline a element
+<span> </span> this create a element for text
