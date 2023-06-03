@@ -1,0 +1,44 @@
+input {
+  font-size: 14px;
+  width: 120px;
+  border-radius: 5px;
+  border-style: solid;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.last {
+  margin-top: 20px;
+}
+
+.first {
+  margin-left: 20px;
+}
+
+.email {
+  display: block;
+  margin-left: 20px;
+  width: 262px;
+}
+
+button {
+  margin-left: 20px;
+  padding-left: 109px;
+  padding-right: 109px;
+  background-color: rgb(47, 127, 231);
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity .15s;
+}
+
+button:active {
+  opacity: .8;
+}

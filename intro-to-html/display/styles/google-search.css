@@ -9,7 +9,7 @@ img {
 }
 
 input{
-  margin-left: 450px;
+  
   width: 515px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -19,4 +19,15 @@ input{
   box-shadow: 0 2px 8px rgba(0,0,0, .2);
   border: none;
   border-radius: 1000px;
+}
+
+.search-bar {
+  top: 48%;
+  left: 47%;
+  width: 30em;
+  height: 18em;
+  margin-top: -9em;
+  margin-left: -15em;
+  position: fixed;
+  
 }
