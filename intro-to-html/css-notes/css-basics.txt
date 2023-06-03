@@ -13,3 +13,8 @@ margin gives spaces outside the border
 
 <u></u>  underline a element
 <span> </span> this create a element for text
+
+
+void elements like (link, source, meta)
+
+https://fonts.google.com/ use this to looks for different other fonts that css do not provide

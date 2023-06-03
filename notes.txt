@@ -1,0 +1,9 @@
+css
+
+>object-fit: cover or contain //this is used for images. also can be used with width and height it just keeps quality but (can crop stuff out - cover)
+
+>object-position: left or right // works for images
+
+>display: block // this is good with blocks that are inline to have its block
+
+
