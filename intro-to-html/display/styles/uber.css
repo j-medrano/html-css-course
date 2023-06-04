@@ -1,0 +1,58 @@
+.container {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: block;
+  margin-top: 8px;
+  width: 270px;
+  background-color: rgb(242, 242, 242);
+  border: none;
+}
+
+.request {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.schedule {
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border: none;
+  margin-left: 14px;
+  background-color: rgb(242, 242, 242);
+
+}
+
+button {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: opacity .12s;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: .5;
+}

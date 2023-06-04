@@ -1,33 +1,21 @@
-.pic {
-  width: 20%;
-  margin: 0 auto;
-  margin-top: 200px;
-}
+
 
 img {
+  display: block;
   width: 300px;
+  margin-top: 15%;
 }
 
 input{
   
-  width: 515px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  width: 500px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 16px;
   padding-left: 16px;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 25px;
-  box-shadow: 0 2px 8px rgba(0,0,0, .2);
+  box-shadow: 0 1px 6px rgba(0,0,0, .2);
   border: none;
-  border-radius: 1000px;
-}
-
-.search-bar {
-  top: 48%;
-  left: 47%;
-  width: 30em;
-  height: 18em;
-  margin-top: -9em;
-  margin-left: -15em;
-  position: fixed;
-  
+  border-radius: 40px;
 }
