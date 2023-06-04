@@ -1,8 +1,54 @@
 .thumbnail {
-    width: 300px;
+    width: 318px;
 }
 
 .search-bar {
     font-size: 20px;
     margin-left: 12px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 318px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.detail-container {
+    display: inline-block;
+    width: 318px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.video-title {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.profile-picture {
+    width: 12%;
+    display: inline;
+    margin-top: 8px;
+    border-radius: 100px;
+    margin-right: 9px;
+}
+
+.video-stats {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.video-author {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.text-container {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
 }
