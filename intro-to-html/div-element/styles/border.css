@@ -1,0 +1,9 @@
+.border-div {
+  width: 300px;
+  padding-bottom: 20px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(150, 150, 150);
+  vertical-align: middle;
+  padding-left: 15px;
+}

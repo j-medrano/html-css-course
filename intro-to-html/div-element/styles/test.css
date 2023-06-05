@@ -1,0 +1,59 @@
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.alpha {
+  width: 250.5px;
+  height: 140.55px;
+
+}
+
+.container {
+  width: 250.5px;
+  height: 252.55px;
+}
+
+.video-info {
+  width: 250.5px;
+  height: 112px;
+
+}
+
+.profile-block {
+  width: 48px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -4px;
+
+}
+
+.channel{
+  border-radius: 100px;
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  margin-right: 0px;
+}
+
+.text-container {
+  display: inline-block;
+  width: 202.5px;
+  height: 112px;
+
+}
+
+p{
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+.video-title {
+  width: 202.5px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-right: 0px;
+}
