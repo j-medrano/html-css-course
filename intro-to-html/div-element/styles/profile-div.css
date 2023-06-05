@@ -1,0 +1,66 @@
+.container {
+  width: 200px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+p {
+  margin-left: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.num-of-friends {
+  color: rgb(100, 100, 100);
+  display: inline-block;
+  text-align: middle;
+  margin-left: 0px;
+}
+
+button {
+  margin-top: 8px;
+  margin-left: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(24, 119, 242);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.mutual-container {
+  width: 100%;
+  vertical-align: middle;
+
+}
+
+.friend-pic{
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -4px;
+  
+}

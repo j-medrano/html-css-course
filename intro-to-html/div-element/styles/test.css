@@ -1,3 +1,10 @@
+.search-bar {
+  font-size: 20px;
+  margin-left: 12px;
+  display: block;
+  margin-bottom: 20px;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -5,26 +12,22 @@ img {
   object-fit: contain;
 }
 
-.alpha {
-  width: 250.5px;
-  height: 140.55px;
-
+.video-picture {
+  width: 300px;
 }
 
 .container {
-  width: 250.5px;
-  height: 252.55px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .video-info {
-  width: 250.5px;
-  height: 112px;
-
+  width: 300px;
 }
 
 .profile-block {
   width: 48px;
-  height: 100%;
   display: inline-block;
   vertical-align: top;
   margin-right: -4px;
@@ -37,23 +40,44 @@ img {
   height: 38px;
   display: inline-block;
   margin-right: 0px;
+  margin-top: 8px;
 }
 
 .text-container {
   display: inline-block;
-  width: 202.5px;
+  width: 84%;
   height: 112px;
 
 }
 
 p{
   font-size: 14px;
-  font-family: Roboto;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 400;
 }
 
 .video-title {
-  width: 202.5px;
+  width: 100%;
   line-height: 20px;
   font-weight: 500;
   margin-right: 0px;
+  margin-top: 8px;
+  color: black;
+}
+
+.video-author {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #606060;;
+
+  
+}
+
+.video-stats {
+  font-size: 12px;
+  margin-bottom: 16px;
+  color: #606060;;
 }
