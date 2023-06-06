@@ -7,8 +7,6 @@
   
   img {
     width: 100%;
-    height: 100%;
-    display: block;
     object-fit: contain;
   }
   
@@ -17,36 +15,18 @@
   }
   
   .container {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
+    width: 100%;
   }
   
   .video-info {
     width: 100%;
   }
-  
-  .profile-block {
-    width: 48px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: -4px;
-    height: 100%;
-  
-  }
-  
+
   .profile-picture{
     border-radius: 100px;
     width: 38px;
-    height: 38px;
-    display: inline-block;
     margin-right: 0px;
     margin-top: 8px;
-  }
-  
-  .text-container {
-    display: inline-block;
-    width: 84%;  
   }
   
   p{
@@ -70,12 +50,25 @@
     font-size: 12px;
     margin-top: 8px;
     color: rgb(96, 96, 96);
-  
-    
   }
   
   .video-stats {
     font-size: 12px;
     margin-bottom: 16px;
     color:rgb(96, 96, 96);
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    margin-bottom: 1000px;
+
+  }
+
+  .grid-info {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
   }
