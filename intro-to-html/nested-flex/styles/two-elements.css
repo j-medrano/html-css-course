@@ -1,0 +1,25 @@
+.flexbox {
+  display: flex;
+  width: 400px;
+}
+
+
+.alpha {
+  display: flex;
+  width: 100px;
+  background-color: lightpink;
+
+  /* best to put items in the middle of the box */
+  justify-content: center;
+  align-items: center;
+}
+
+.beta {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.test{
+  color: white;
+  background-color: black;
+}

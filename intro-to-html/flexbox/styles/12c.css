@@ -1,0 +1,21 @@
+.four-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.alpha {
+  background-color: lightblue;
+}
+.beta {
+  background-color: lightpink;
+}
+
+.delta {
+  background-color: lightblue;
+}
+
+.gamma {
+  background-color: lightpink;
+}

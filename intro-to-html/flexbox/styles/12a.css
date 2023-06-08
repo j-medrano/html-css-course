@@ -1,0 +1,14 @@
+.two-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.alpha {
+  background-color: lightblue;
+  width: 200px;
+}
+.beta {
+  background-color: lightpink;
+  width: 75px;
+}
