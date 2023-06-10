@@ -7,10 +7,25 @@
   
   .video-picture {
     width: 100%;
+    position: relative;
   }
   
   .container-for-grid{
     width: 100%;
+    
+  }
+
+  .video-time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Roboto, arial;
+    padding: 4px;
+    border-radius: 4px;
   }
   
   .video-info {
